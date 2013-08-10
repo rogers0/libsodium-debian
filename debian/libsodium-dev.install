@@ -1,0 +1,4 @@
+usr/include
+usr/lib/*/libsodium*.so
+usr/lib/*/*.la
+usr/lib/*/*.a
