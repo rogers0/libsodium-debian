@@ -5,6 +5,3 @@
 
 override_dh_strip:
 	dh_strip --dbg-package=libsodium-dbg
-
-override_dh_builddeb:
-	dh_builddeb -- -Zxz
