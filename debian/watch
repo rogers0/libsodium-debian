@@ -1,3 +1,2 @@
 version=3
 https://github.com/jedisct1/libsodium/tags .*/(\d[\d\.]*)\.tar\.gz
-#https://github.com/jedisct1/libsodium/releases/download/0.4.2/libsodium-0.4.2.tar.gz
