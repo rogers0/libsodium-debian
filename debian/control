@@ -1,4 +1,4 @@
-Source: sodium
+Source: libsodium
 Section: libs
 Priority: optional
 Maintainer: Raúl Sánchez Siles <rasasi78@gmail.com>
