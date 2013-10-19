@@ -127,12 +127,17 @@ libsodium.so.4 libsodium4 #MINVER#
  crypto_onetimeauth_poly1305_53_implementation_name@Base 0.4.2
  crypto_onetimeauth_poly1305_53_verify@Base 0.4.2
  crypto_onetimeauth_poly1305_bytes@Base 0.4.2
+ crypto_onetimeauth_poly1305_donna@Base 0.4.3n
+ crypto_onetimeauth_poly1305_donna_implementation@Base 0.4.3
+ crypto_onetimeauth_poly1305_donna_implementation_name@Base 0.4.3
+ crypto_onetimeauth_poly1305_donna_verify@Base 0.4.3
+ crypto_onetimeauth_poly1305_implementation_name@Base 0.4.3
  crypto_onetimeauth_poly1305_keybytes@Base 0.4.2
  crypto_onetimeauth_poly1305_primitive@Base 0.4.2
- crypto_onetimeauth_poly1305_ref@Base 0.4.2
- crypto_onetimeauth_poly1305_ref_implementation@Base 0.4.2
- crypto_onetimeauth_poly1305_ref_implementation_name@Base 0.4.2
- crypto_onetimeauth_poly1305_ref_verify@Base 0.4.2
+#MISSING: 0.4.3-1# crypto_onetimeauth_poly1305_ref@Base 0.4.2
+#MISSING: 0.4.3-1# crypto_onetimeauth_poly1305_ref_implementation@Base 0.4.2
+#MISSING: 0.4.3-1# crypto_onetimeauth_poly1305_ref_implementation_name@Base 0.4.2
+#MISSING: 0.4.3-1# crypto_onetimeauth_poly1305_ref_verify@Base 0.4.2
  crypto_onetimeauth_poly1305_set_implementation@Base 0.4.2
  crypto_onetimeauth_poly1305_verify@Base 0.4.2
  crypto_onetimeauth_primitive@Base 0.4.2
@@ -183,6 +188,7 @@ libsodium.so.4 libsodium4 #MINVER#
  crypto_sign_ed25519_ref_seed_keypair@Base 0.4.2
  crypto_sign_ed25519_secretkeybytes@Base 0.4.2
  crypto_sign_ed25519_seed_keypair@Base 0.4.2
+ crypto_sign_ed25519_seedbytes@Base 0.4.3
  crypto_sign_edwards25519sha512batch@Base 0.4.2
  crypto_sign_edwards25519sha512batch_bytes@Base 0.4.2
  crypto_sign_edwards25519sha512batch_keypair@Base 0.4.2
@@ -196,6 +202,7 @@ libsodium.so.4 libsodium4 #MINVER#
  crypto_sign_publickeybytes@Base 0.4.2
  crypto_sign_secretkeybytes@Base 0.4.2
  crypto_sign_seed_keypair@Base 0.4.2
+ crypto_sign_seedbytes@Base 0.4.3
  crypto_stream@Base 0.4.2
  crypto_stream_aes128ctr@Base 0.4.2
  crypto_stream_aes128ctr_afternm@Base 0.4.2
