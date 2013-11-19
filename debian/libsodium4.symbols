@@ -134,6 +134,7 @@ libsodium.so.4 libsodium4 #MINVER#
  crypto_onetimeauth_poly1305_implementation_name@Base 0.4.3
  crypto_onetimeauth_poly1305_keybytes@Base 0.4.2
  crypto_onetimeauth_poly1305_primitive@Base 0.4.2
+ crypto_onetimeauth_poly1305_ref@Base 0.4.5
  crypto_onetimeauth_poly1305_set_implementation@Base 0.4.2
  crypto_onetimeauth_poly1305_verify@Base 0.4.2
  crypto_onetimeauth_primitive@Base 0.4.2
@@ -143,8 +144,10 @@ libsodium.so.4 libsodium4 #MINVER#
  crypto_scalarmult_bytes@Base 0.4.2
  crypto_scalarmult_curve25519@Base 0.4.2
  crypto_scalarmult_curve25519_base@Base 0.4.2
+ crypto_scalarmult_curve25519_bytes@Base 0.4.5
  crypto_scalarmult_curve25519_ref@Base 0.4.2
  crypto_scalarmult_curve25519_ref_base@Base 0.4.2
+ crypto_scalarmult_curve25519_scalarbytes@Base 0.4.5
  crypto_scalarmult_primitive@Base 0.4.2
  crypto_scalarmult_scalarbytes@Base 0.4.2
  crypto_secretbox@Base 0.4.2
@@ -232,6 +235,9 @@ libsodium.so.4 libsodium4 #MINVER#
  crypto_stream_salsa208_primitive@Base 0.4.2
  crypto_stream_salsa208_xor@Base 0.4.2
  crypto_stream_salsa20@Base 0.4.2
+ crypto_stream_salsa20_keybytes@Base 0.4.5
+ crypto_stream_salsa20_noncebytes@Base 0.4.5
+ crypto_stream_salsa20_primitive@Base 0.4.5
  crypto_stream_salsa20_xor@Base 0.4.2
  crypto_stream_xor@Base 0.4.2
  crypto_stream_xsalsa20@Base 0.4.2
