@@ -1,6 +1,6 @@
-libsodium (0.4.5-1) unstable; urgency=low
+libsodium (0.4.5-1) UNRELEASED; urgency=low
 
   * Initial release. (Closes: #701962: ITP: libsodium -- Library for
     build higher-level cryptographic tools)
 
- -- Raúl Sánchez Siles <rasasi78@gmail.com>  Sun, 24 Nov 2013 21:42:19 +0100
+ -- Raúl Sánchez Siles <rasasi78@gmail.com>  Tue, 19 Nov 2013 18:54:23 +0100
