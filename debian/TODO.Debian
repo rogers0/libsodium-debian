@@ -1,6 +1,0 @@
-@HAVE_AMD64_ASM_V@
-#if defined(__amd64) || defined(__amd64__) || defined(__x86_64__)
-Check this against all compilers
-
-TI arch is not supported on debian.
-
