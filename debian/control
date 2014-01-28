@@ -28,6 +28,7 @@ Package: libsodium-dev
 Section: libdevel
 Depends: ${misc:Depends}, libsodium4 (= ${binary:Version} )
 Architecture: any
+Multi-Arch: same
 Description: Network communication, cryptography and signaturing library - headers
  NaCl (pronounced "salt") is a new easy-to-use high-speed software library for
  network communication, encryption, decryption, signatures, etc.

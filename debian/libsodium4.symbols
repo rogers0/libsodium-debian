@@ -45,11 +45,13 @@ libsodium.so.4 libsodium4 #MINVER#
  crypto_box_curve25519xsalsa20poly1305_ref_open_afternm@Base 0.4.2
  crypto_box_curve25519xsalsa20poly1305_secretkeybytes@Base 0.4.2
  crypto_box_curve25519xsalsa20poly1305_zerobytes@Base 0.4.2
+ crypto_box_easy@Base 0.4.5+git20140126.28b3f2ab0efe
  crypto_box_keypair@Base 0.4.2
  crypto_box_macbytes@Base 0.4.2
  crypto_box_noncebytes@Base 0.4.2
  crypto_box_open@Base 0.4.2
  crypto_box_open_afternm@Base 0.4.2
+ crypto_box_open_easy@Base 0.4.5+git20140126.28b3f2ab0efe
  crypto_box_primitive@Base 0.4.2
  crypto_box_publickeybytes@Base 0.4.2
  crypto_box_secretkeybytes@Base 0.4.2
@@ -86,8 +88,10 @@ libsodium.so.4 libsodium4 #MINVER#
  crypto_generichash_blake2b_bytes_min@Base 0.4.2
  crypto_generichash_blake2b_final@Base 0.4.2
  crypto_generichash_blake2b_init@Base 0.4.2
+ crypto_generichash_blake2b_init_salt_personal@Base 0.4.5+git20140126.28b3f2ab0efe
  crypto_generichash_blake2b_keybytes_max@Base 0.4.2
  crypto_generichash_blake2b_keybytes_min@Base 0.4.2
+ crypto_generichash_blake2b_salt_personal@Base 0.4.5+git20140126.28b3f2ab0efe
  crypto_generichash_blake2b_update@Base 0.4.2
  crypto_generichash_blockbytes@Base 0.4.2
  crypto_generichash_bytes@Base 0.4.2
@@ -145,6 +149,8 @@ libsodium.so.4 libsodium4 #MINVER#
  crypto_scalarmult_curve25519@Base 0.4.2
  crypto_scalarmult_curve25519_base@Base 0.4.2
  crypto_scalarmult_curve25519_bytes@Base 0.4.5
+ crypto_scalarmult_curve25519_donna_c64@Base 0.4.5+git20140126.28b3f2ab0efe
+ crypto_scalarmult_curve25519_donna_c64_base@Base 0.4.5+git20140126.28b3f2ab0efe
  crypto_scalarmult_curve25519_ref@Base 0.4.2
  crypto_scalarmult_curve25519_ref_base@Base 0.4.2
  crypto_scalarmult_curve25519_scalarbytes@Base 0.4.5
@@ -152,13 +158,17 @@ libsodium.so.4 libsodium4 #MINVER#
  crypto_scalarmult_scalarbytes@Base 0.4.2
  crypto_secretbox@Base 0.4.2
  crypto_secretbox_boxzerobytes@Base 0.4.2
+ crypto_secretbox_easy@Base 0.4.5+git20140126.28b3f2ab0efe
  crypto_secretbox_keybytes@Base 0.4.2
+ crypto_secretbox_macbytes@Base 0.4.5+git20140126.28b3f2ab0efe
  crypto_secretbox_noncebytes@Base 0.4.2
  crypto_secretbox_open@Base 0.4.2
+ crypto_secretbox_open_easy@Base 0.4.5+git20140126.28b3f2ab0efe
  crypto_secretbox_primitive@Base 0.4.2
  crypto_secretbox_xsalsa20poly1305@Base 0.4.2
  crypto_secretbox_xsalsa20poly1305_boxzerobytes@Base 0.4.2
  crypto_secretbox_xsalsa20poly1305_keybytes@Base 0.4.2
+ crypto_secretbox_xsalsa20poly1305_macbytes@Base 0.4.5+git20140126.28b3f2ab0efe
  crypto_secretbox_xsalsa20poly1305_noncebytes@Base 0.4.2
  crypto_secretbox_xsalsa20poly1305_open@Base 0.4.2
  crypto_secretbox_xsalsa20poly1305_primitive@Base 0.4.2
@@ -235,9 +245,13 @@ libsodium.so.4 libsodium4 #MINVER#
  crypto_stream_salsa208_primitive@Base 0.4.2
  crypto_stream_salsa208_xor@Base 0.4.2
  crypto_stream_salsa20@Base 0.4.2
+ crypto_stream_salsa20_amd64_xmm6@Base 0.4.5+git20140126.28b3f2ab0efe
+ crypto_stream_salsa20_amd64_xmm6_xor@Base 0.4.5+git20140126.28b3f2ab0efe
  crypto_stream_salsa20_keybytes@Base 0.4.5
  crypto_stream_salsa20_noncebytes@Base 0.4.5
  crypto_stream_salsa20_primitive@Base 0.4.5
+ crypto_stream_salsa20_ref@Base 0.4.5+git20140126.28b3f2ab0efe
+ crypto_stream_salsa20_ref_xor@Base 0.4.5+git20140126.28b3f2ab0efe
  crypto_stream_salsa20_xor@Base 0.4.2
  crypto_stream_xor@Base 0.4.2
  crypto_stream_xsalsa20@Base 0.4.2
