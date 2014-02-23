@@ -3,7 +3,7 @@ Section: libs
 Priority: optional
 Maintainer: Raúl Sánchez Siles <rasasi78@gmail.com>
 Build-Depends: debhelper ( >= 9), automake ( >= 1:1.11 ), autotools-dev,
- autoconf, libtool, dh-autoreconf
+ pkg-config, autoconf, libtool, dh-autoreconf
 Standards-Version: 3.9.4
 #Vcs-hg:
 #Vcs-browser:
