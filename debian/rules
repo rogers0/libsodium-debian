@@ -1,7 +1,7 @@
 #!/usr/bin/make -f
 
 %:
-	dh $@ --with autotools-dev,autoreconf -Bbuild
+	dh $@ --with=autoreconf -Bbuild
 
 override_dh_strip:
 	dh_strip --dbg-package=libsodium-dbg
