@@ -6,7 +6,6 @@ Source: https://github.com/jedisct1/libsodium
 Files: *
 Copyright: 2013 Frank Denis
 License: ISC
- http://spdx.org/licenses/ISC
  Permission to use, copy, modify, and/or distribute this software for any
  purpose with or without fee is hereby granted, provided that the above 
  copyright notice and this permission notice appear in all copies. 
@@ -19,8 +18,67 @@ License: ISC
  TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE 
  OF THIS SOFTWARE.
 
+Files: src/libsodium/crypto_auth/try.c
+ src/libsodium/crypto_auth/hmacsha256/ref/hmac_hmacsha256.c
+ src/libsodium/crypto_auth/hmacsha512256/ref/hmac_hmacsha512256.c
+ src/libsodium/crypto_box/try.c
+ src/libsodium/crypto_core/salsa208/ref/core_salsa208.c
+ src/libsodium/crypto_core/salsa20/ref/core_salsa20.c
+ src/libsodium/crypto_core/hsalsa20/ref2/core_hsalsa20.c
+ src/libsodium/crypto_core/salsa2012/ref/core_salsa2012.c
+ src/libsodium/crypto_hash/try.c
+ src/libsodium/crypto_hash/sha256/ref/hash_sha256.c
+ src/libsodium/crypto_hash/sha512/ref/hash_sha512.c
+ src/libsodium/crypto_hashblocks/try.c
+ src/libsodium/crypto_onetimeauth/poly1305/53/auth_poly1305_53.c
+ src/libsodium/crypto_scalarmult/try.c
+ src/libsodium/crypto_secretbox/try.c
+ src/libsodium/crypto_sign/try.c
+ src/libsodium/crypto_stream/try.c
+ src/libsodium/crypto_stream/salsa20/ref/stream_salsa20_ref.c
+ src/libsodium/crypto_stream/salsa20/ref/xor_salsa20_ref.c
+ src/libsodium/crypto_stream/salsa208/ref/stream_salsa208.c
+ src/libsodium/crypto_stream/salsa208/ref/xor_salsa208.c
+ src/libsodium/crypto_stream/salsa2012/ref/stream_salsa2012.c
+ src/libsodium/crypto_stream/salsa2012/ref/xor_salsa2012.c
+ src/libsodium/crypto_stream/xsalsa20/ref/stream_xsalsa20.c
+ src/libsodium/crypto_stream/xsalsa20/ref/xor_xsalsa20.c
+ src/libsodium/crypto_verify/try.c
+Copyright: 2009 Daniel J. Bernstein
+License: public-domain
+
+Files: src/libsodium/crypto_stream/aes128ctr/portable/beforenm_aes128ctr.c
+ src/libsodium/crypto_stream/aes128ctr/portable/xor_afternm_aes128ctr.c
+ src/libsodium/crypto_stream/aes128ctr/portable/afternm_aes128ctr.c
+Copyright: 2009 Peter Schwabe, Emilia Käsper
+License: public-domain
+
+Files: src/libsodium/crypto_stream/aes256estream/hongjun/aes256-ctr.c
+Copyright: 2007 Hongjun Wu
+License: public-domain
+
+Files: src/libsodium/crypto_scalarmult/curve25519/ref/base_curve25519_ref.c
+ src/libsodium/crypto_scalarmult/curve25519/ref/smult_curve25519_ref.c
+Copyright: 2008 Matthew Dempsky
+License: public-domain.
+
+Files: src/libsodium/crypto_scalarmult/curve25519/donna_c64/smult_curve25519_donna_c64.c
+Copyright: 2008 Adam Langley, Google Inc.
+License: public-domain
+
+Files: src/libsodium/crypto_generichash/blake2/ref/blake2b-ref.c
+ src/libsodium/crypto_generichash/blake2/ref/blake2s-ref.c
+Copyright: 2012 Samuel Neves <sneves@dei.uc.pt>
+License: CC0
+ To the extent possible under law, the author(s) have dedicated all copyright
+ and related and neighboring rights to this software to the public domain
+ worldwide. This software is distributed without any warranty.
+ .
+ You should have received a copy of the CC0 Public Domain Dedication along with
+ this software. If not, see <http://creativecommons.org/publicdomain/zero/1.0/>
+
 Files: debian/*
-Copyright: 2013, Raúl Sánchez Siles <rasasi78@gmail,cin>
+Copyright: 2013, Raúl Sánchez Siles <rasasi78@gmail.com>
 License: GPL-2+
  This package is free software; you can redistribute it and/or modify
  it under the terms of the GNU General Public License as published by
@@ -37,3 +95,9 @@ License: GPL-2+
  .
  On Debian systems, the complete text of the GNU General
  Public License version 2 can be found in "/usr/share/common-licenses/GPL-2".
+
+License: public-domain
+ Only public domain stated, no further description or requirements.
+ No license required for any purpose; the work is not subject to copyright in
+ any jurisdiction.
+
