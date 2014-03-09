@@ -44,23 +44,27 @@ Files: src/libsodium/crypto_auth/try.c
  src/libsodium/crypto_stream/xsalsa20/ref/stream_xsalsa20.c
  src/libsodium/crypto_stream/xsalsa20/ref/xor_xsalsa20.c
  src/libsodium/crypto_verify/try.c
-Copyright: 2009 Daniel J. Bernstein
+Copyright: no copyright claimed
 License: public-domain
+Comment: Written by Daniel J. Bernstein 2009
 
 Files: src/libsodium/crypto_stream/aes128ctr/portable/beforenm_aes128ctr.c
  src/libsodium/crypto_stream/aes128ctr/portable/xor_afternm_aes128ctr.c
  src/libsodium/crypto_stream/aes128ctr/portable/afternm_aes128ctr.c
-Copyright: 2009 Peter Schwabe, Emilia Käsper
+Copyright: no copyright claimed
 License: public-domain
+Comment: Written by Peter Schwabe, Emilia Käsper 2009
 
 Files: src/libsodium/crypto_stream/aes256estream/hongjun/aes256-ctr.c
-Copyright: 2007 Hongjun Wu
+Copyright: no copyright claimed
 License: public-domain
+Comment: Written by Hongjun Wu 2007
 
 Files: src/libsodium/crypto_scalarmult/curve25519/ref/base_curve25519_ref.c
  src/libsodium/crypto_scalarmult/curve25519/ref/smult_curve25519_ref.c
-Copyright: 2008 Matthew Dempsky
-License: public-domain.
+Copyright: no copyright claimed
+License: public-domain
+Comment: Written by Matthew Dempsky 2008
 
 Files: src/libsodium/crypto_scalarmult/curve25519/donna_c64/smult_curve25519_donna_c64.c
 Copyright: 2008 Adam Langley, Google Inc.
