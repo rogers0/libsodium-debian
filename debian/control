@@ -4,8 +4,8 @@ Priority: optional
 Maintainer: Raúl Sánchez Siles <rasasi78@gmail.com>
 Build-Depends: debhelper ( >= 9), pkg-config, dh-autoreconf
 Standards-Version: 3.9.5
-#Vcs-hg:
-#Vcs-browser:
+Vcs-Hg: http://trismegisto.no-ip.org/hg/libsodium-debian
+Vcs-Browser: http://trismegisto.no-ip.org/hg/libsodium-debian
 Homepage: https://github.com/jedisct1/libsodium
 
 Package: libsodium4
