@@ -6,3 +6,5 @@ override_dh_strip:
 
 %:
 	dh $@ --with autoreconf -Bbuild
+
+.PHONY: override_dh_strip
