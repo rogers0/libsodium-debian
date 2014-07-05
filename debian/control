@@ -9,7 +9,7 @@ Vcs-Hg: http://trismegisto.no-ip.org/hg/libsodium-debian
 Vcs-Browser: http://trismegisto.no-ip.org/hg/libsodium-debian
 Homepage: https://github.com/jedisct1/libsodium
 
-Package: libsodium4
+Package: libsodium10
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Pre-Depends: ${misc:Pre-Depends}
 Architecture: any
