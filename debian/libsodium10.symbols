@@ -196,14 +196,17 @@ libsodium.so.10 libsodium10 #MINVER#
  crypto_shorthash_siphash24_keybytes@Base 0.6.0
  crypto_sign@Base 0.6.0
  crypto_sign_bytes@Base 0.6.0
+ crypto_sign_detached@Base 0.6.1
  crypto_sign_ed25519@Base 0.6.0
  crypto_sign_ed25519_bytes@Base 0.6.0
+ crypto_sign_ed25519_detached@Base 0.6.1
  crypto_sign_ed25519_keypair@Base 0.6.0
  crypto_sign_ed25519_open@Base 0.6.0
  crypto_sign_ed25519_publickeybytes@Base 0.6.0
  crypto_sign_ed25519_secretkeybytes@Base 0.6.0
  crypto_sign_ed25519_seed_keypair@Base 0.6.0
  crypto_sign_ed25519_seedbytes@Base 0.6.0
+ crypto_sign_ed25519_verify_detached@Base 0.6.1
  crypto_sign_edwards25519sha512batch@Base 0.6.0
  crypto_sign_edwards25519sha512batch_bytes@Base 0.6.0
  crypto_sign_edwards25519sha512batch_keypair@Base 0.6.0
@@ -217,6 +220,7 @@ libsodium.so.10 libsodium10 #MINVER#
  crypto_sign_secretkeybytes@Base 0.6.0
  crypto_sign_seed_keypair@Base 0.6.0
  crypto_sign_seedbytes@Base 0.6.0
+ crypto_sign_verify_detached@Base 0.6.1
  crypto_stream@Base 0.6.0
  crypto_stream_aes128ctr@Base 0.6.0
  crypto_stream_aes128ctr_afternm@Base 0.6.0
