@@ -18,17 +18,35 @@ License: ISC
  TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE 
  OF THIS SOFTWARE.
 
+Files: src/libsodium/crypto_pwhash/scryptsalsa208sha256/crypto_scrypt.h
+ src/libsodium/crypto_pwhash/scryptsalsa208sha256/nosse/pwhash_scryptsalsa208sha256_nosse.c
+ src/libsodium/crypto_pwhash/scryptsalsa208sha256/sse/pwhash_scryptsalsa208sha256_sse.c
+Copyright: 2009 Colin Percival
+ 2012, 2013 Alexander Peslyak
+License: BSD-2-clause
+
+Files: src/libsodium/crypto_pwhash/scryptsalsa208sha256/crypto_scrypt-common.c
+ src/libsodium/crypto_pwhash/scryptsalsa208sha256/scrypt_platform.c
+Copyright: 2013 Alexander Peslyak
+License: BSD
+
+Files: src/libsodium/crypto_auth/hmacsha256/cp/hmac_hmacsha256.c
+ src/libsodium/crypto_auth/hmacsha512/cp/hmac_hmacsha256.c
+ src/libsodium/crypto_auth/hmacsha512256/cp/hmac_hmacsha512256.c
+ src/libsodium/crypto_hash/sha256/cp/hash_sha256.c
+ src/libsodium/crypto_hash/sha512/cp/hash_sha512.c
+ src/libsodium/crypto_pwhash/scryptsalsa208sha256/pbkdf2-sha256.h
+ src/libsodium/crypto_pwhash/scryptsalsa208sha256/pbkdf2-sha256.c
+Copyright: 2005,2007,2009 Colin Percival
+License: BSD-2-clause
+
 Files: src/libsodium/crypto_auth/try.c
- src/libsodium/crypto_auth/hmacsha256/ref/hmac_hmacsha256.c
- src/libsodium/crypto_auth/hmacsha512256/ref/hmac_hmacsha512256.c
  src/libsodium/crypto_box/try.c
  src/libsodium/crypto_core/salsa208/ref/core_salsa208.c
  src/libsodium/crypto_core/salsa20/ref/core_salsa20.c
  src/libsodium/crypto_core/hsalsa20/ref2/core_hsalsa20.c
  src/libsodium/crypto_core/salsa2012/ref/core_salsa2012.c
  src/libsodium/crypto_hash/try.c
- src/libsodium/crypto_hash/sha256/ref/hash_sha256.c
- src/libsodium/crypto_hash/sha512/ref/hash_sha512.c
  src/libsodium/crypto_hashblocks/try.c
  src/libsodium/crypto_onetimeauth/poly1305/53/auth_poly1305_53.c
  src/libsodium/crypto_scalarmult/try.c
@@ -105,4 +123,42 @@ License: public-domain
  Only public domain stated, no further description or requirements.
  No license required for any purpose; the work is not subject to copyright in
  any jurisdiction.
+
+License: BSD-2-clause
+ Redistribution and use in source and binary forms, with or without
+ modification, are permitted provided that the following conditions
+ are met:
+ 1. Redistributions of source code must retain the above copyright
+    notice, this list of conditions and the following disclaimer.
+ 2. Redistributions in binary form must reproduce the above copyright
+    notice, this list of conditions and the following disclaimer in the
+    documentation and/or other materials provided with the distribution.
+ .
+ THIS SOFTWARE IS PROVIDED BY THE AUTHOR AND CONTRIBUTORS ``AS IS'' AND
+ ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+ IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+ ARE DISCLAIMED.  IN NO EVENT SHALL THE AUTHOR OR CONTRIBUTORS BE LIABLE
+ FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+ DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS
+ OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
+ HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT
+ LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY
+ OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
+ SUCH DAMAGE.
+
+License: BSD
+ Redistribution and use in source and binary forms, with or without
+ modification, are permitted.
+ .
+ THIS SOFTWARE IS PROVIDED BY THE AUTHOR AND CONTRIBUTORS ``AS IS'' AND
+ ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+ IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+ ARE DISCLAIMED.  IN NO EVENT SHALL THE AUTHOR OR CONTRIBUTORS BE LIABLE
+ FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+ DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS
+ OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
+ HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT
+ LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY
+ OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
+ SUCH DAMAGE.
 
