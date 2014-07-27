@@ -26,7 +26,7 @@ Description: Network communication, cryptography and signaturing library
 
 Package: libsodium-dev
 Section: libdevel
-Depends: ${misc:Depends}, libsodium10 (= ${binary:Version} )
+Depends: ${misc:Depends}, libsodium10 (= ${binary:Version})
 Architecture: any
 Multi-Arch: same
 Description: Network communication, cryptography and signaturing library - headers
@@ -45,7 +45,7 @@ Description: Network communication, cryptography and signaturing library - heade
 Package: libsodium-dbg
 Section: debug
 Priority: extra
-Depends: ${misc:Depends}, libsodium10 (= ${binary:Version} )
+Depends: ${misc:Depends}, libsodium10 (= ${binary:Version})
 Architecture: any
 Multi-Arch: same
 Description: Network communication, cryptography and signaturing library - debug symbols
