@@ -1,4 +1,4 @@
-libsodium.so.10 libsodium10 #MINVER#
+libsodium.so.13 libsodium13 #MINVER#
  _crypto_stream_salsa20@Base 0.6.0
  _crypto_stream_salsa20_xor_ic@Base 0.6.0
  crypto_aead_chacha20poly1305_abytes@Base 0.6.0
@@ -131,7 +131,6 @@ libsodium.so.10 libsodium10 #MINVER#
  crypto_onetimeauth_final@Base 0.6.0
  crypto_onetimeauth_init@Base 0.6.0
  crypto_onetimeauth_keybytes@Base 0.6.0
- crypto_onetimeauth_pick_best_implementation@Base 0.6.0
  crypto_onetimeauth_poly1305@Base 0.6.0
  crypto_onetimeauth_poly1305_bytes@Base 0.6.0
  crypto_onetimeauth_poly1305_final@Base 0.6.0
@@ -154,11 +153,7 @@ libsodium.so.10 libsodium10 #MINVER#
  crypto_pwhash_scryptsalsa208sha256_str@Base 0.6.0
  crypto_pwhash_scryptsalsa208sha256_str_verify@Base 0.6.0
  crypto_pwhash_scryptsalsa208sha256_strbytes@Base 0.6.0
- crypto_pwhash_scryptxsalsa208sha256@Base 0.6.0
- crypto_pwhash_scryptxsalsa208sha256_saltbytes@Base 0.6.0
- crypto_pwhash_scryptxsalsa208sha256_str@Base 0.6.0
- crypto_pwhash_scryptxsalsa208sha256_str_verify@Base 0.6.0
- crypto_pwhash_scryptxsalsa208sha256_strbytes@Base 0.6.0
+ crypto_pwhash_scryptsalsa208sha256_strprefix@Base 0.7.0
  crypto_scalarmult@Base 0.6.0
  crypto_scalarmult_base@Base 0.6.0
  crypto_scalarmult_bytes@Base 0.6.0
@@ -202,10 +197,14 @@ libsodium.so.10 libsodium10 #MINVER#
  crypto_sign_ed25519_detached@Base 0.6.1
  crypto_sign_ed25519_keypair@Base 0.6.0
  crypto_sign_ed25519_open@Base 0.6.0
+ crypto_sign_ed25519_pk_to_curve25519@Base 0.7.0
  crypto_sign_ed25519_publickeybytes@Base 0.6.0
  crypto_sign_ed25519_secretkeybytes@Base 0.6.0
  crypto_sign_ed25519_seed_keypair@Base 0.6.0
  crypto_sign_ed25519_seedbytes@Base 0.6.0
+ crypto_sign_ed25519_sk_to_curve25519@Base 0.7.0
+ crypto_sign_ed25519_sk_to_pk@Base 0.7.0
+ crypto_sign_ed25519_sk_to_seed@Base 0.7.0
  crypto_sign_ed25519_verify_detached@Base 0.6.1
  crypto_sign_edwards25519sha512batch@Base 0.6.0
  crypto_sign_edwards25519sha512batch_bytes@Base 0.6.0
@@ -230,14 +229,6 @@ libsodium.so.10 libsodium10 #MINVER#
  crypto_stream_aes128ctr_noncebytes@Base 0.6.0
  crypto_stream_aes128ctr_xor@Base 0.6.0
  crypto_stream_aes128ctr_xor_afternm@Base 0.6.0
- crypto_stream_aes256estream@Base 0.6.0
- crypto_stream_aes256estream_afternm@Base 0.6.0
- crypto_stream_aes256estream_beforenm@Base 0.6.0
- crypto_stream_aes256estream_beforenmbytes@Base 0.6.0
- crypto_stream_aes256estream_keybytes@Base 0.6.0
- crypto_stream_aes256estream_noncebytes@Base 0.6.0
- crypto_stream_aes256estream_xor@Base 0.6.0
- crypto_stream_aes256estream_xor_afternm@Base 0.6.0
  crypto_stream_chacha20@Base 0.6.0
  crypto_stream_chacha20_keybytes@Base 0.6.0
  crypto_stream_chacha20_noncebytes@Base 0.6.0
@@ -292,14 +283,20 @@ libsodium.so.10 libsodium10 #MINVER#
  randombytes_sysrandom_stir@Base 0.6.0
  randombytes_sysrandom_uniform@Base 0.6.0
  randombytes_uniform@Base 0.6.0
+ sodium_allocarray@Base 0.7.0
  sodium_bin2hex@Base 0.6.0
+ sodium_free@Base 0.7.0
  sodium_hex2bin@Base 0.6.0
  sodium_init@Base 0.6.0
  sodium_library_version_major@Base 0.6.0
  sodium_library_version_minor@Base 0.6.0
+ sodium_malloc@Base 0.7.0
  sodium_memcmp@Base 0.6.0
  sodium_memzero@Base 0.6.0
  sodium_mlock@Base 0.6.0
+ sodium_mprotect_noaccess@Base 0.7.0
+ sodium_mprotect_readonly@Base 0.7.0
+ sodium_mprotect_readwrite@Base 0.7.0
  sodium_munlock@Base 0.6.0
  sodium_runtime_get_cpu_features@Base 0.6.0
  sodium_runtime_has_neon@Base 0.6.0
