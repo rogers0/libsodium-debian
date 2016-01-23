@@ -4,7 +4,7 @@ Upstream-Contact: Frank Denis <j at pureftpd dot org>
 Source: https://github.com/jedisct1/libsodium
 
 Files: *
-Copyright: 2013-2014 Frank Denis <j at pureftpd dot org>
+Copyright: 2013-2015 Frank Denis <j at pureftpd dot org>
 License: ISC
  Permission to use, copy, modify, and/or distribute this software for any
  purpose with or without fee is hereby granted, provided that the above 
@@ -106,7 +106,7 @@ License: MIT
  SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 Files: debian/*
-Copyright: 2014 Laszlo Boszormenyi (GCS) <gcs@debian.org>,
+Copyright: 2014- Laszlo Boszormenyi (GCS) <gcs@debian.org>,
  2013-2014 Raúl Sánchez Siles <rasasi78@gmail.com>
 License: GPL-2+
  This package is free software; you can redistribute it and/or modify

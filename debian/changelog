@@ -1,3 +1,11 @@
+libsodium (1.0.8-1) experimental; urgency=low
+
+  * New upstream release.
+  * Library transition to version 18 of soname.
+  * Update libsodium18.symbols .
+
+ -- Laszlo Boszormenyi (GCS) <gcs@debian.org>  Sat, 23 Jan 2016 09:39:46 +0100
+
 libsodium (1.0.3-1) unstable; urgency=low
 
   * New upstream release.
