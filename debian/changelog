@@ -1,3 +1,9 @@
+libsodium (1.0.8-2) experimental; urgency=low
+
+  * Mark arch specific symbols as-is.
+
+ -- Laszlo Boszormenyi (GCS) <gcs@debian.org>  Sun, 24 Jan 2016 10:20:09 +0100
+
 libsodium (1.0.8-1) experimental; urgency=low
 
   * New upstream release.
