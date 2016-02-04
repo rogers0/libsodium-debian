@@ -1,6 +1,12 @@
+libsodium (1.0.8-3) unstable; urgency=low
+
+  * Upload to Sid for starting the package transition.
+
+ -- Laszlo Boszormenyi (GCS) <gcs@debian.org>  Thu, 04 Feb 2016 19:06:05 +0100
+
 libsodium (1.0.8-2) experimental; urgency=low
 
-  * Mark arch specific symbols as-is.
+  * Mark amd64 only symbols as-is.
 
  -- Laszlo Boszormenyi (GCS) <gcs@debian.org>  Sun, 24 Jan 2016 10:20:09 +0100
 
