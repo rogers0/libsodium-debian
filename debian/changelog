@@ -1,3 +1,9 @@
+libsodium (1.0.8-4) unstable; urgency=low
+
+  * Mark more {,kfreebsd-}amd64, {,kfreebsd-}i386 and x32 symbols as-is.
+
+ -- Laszlo Boszormenyi (GCS) <gcs@debian.org>  Thu, 04 Feb 2016 21:05:01 +0100
+
 libsodium (1.0.8-3) unstable; urgency=low
 
   * Upload to Sid for starting the package transition.

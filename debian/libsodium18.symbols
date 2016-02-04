@@ -13,10 +13,10 @@ libsodium.so.18 libsodium18 #MINVER#
  crypto_aead_aes256gcm_encrypt@Base 1.0.8
  crypto_aead_aes256gcm_encrypt_afternm@Base 1.0.8
  crypto_aead_aes256gcm_is_available@Base 1.0.8
- crypto_aead_aes256gcm_keybytes@Base 1.0.8
- crypto_aead_aes256gcm_npubbytes@Base 1.0.8
- crypto_aead_aes256gcm_nsecbytes@Base 1.0.8
- crypto_aead_aes256gcm_statebytes@Base 1.0.8
+ (arch=amd64 i386 kfreebsd-amd64 kfreebsd-i386 x32)crypto_aead_aes256gcm_keybytes@Base 1.0.8
+ (arch=amd64 i386 kfreebsd-amd64 kfreebsd-i386 x32)crypto_aead_aes256gcm_npubbytes@Base 1.0.8
+ (arch=amd64 i386 kfreebsd-amd64 kfreebsd-i386 x32)crypto_aead_aes256gcm_nsecbytes@Base 1.0.8
+ (arch=amd64 i386 kfreebsd-amd64 kfreebsd-i386 x32)crypto_aead_aes256gcm_statebytes@Base 1.0.8
  crypto_aead_chacha20poly1305_abytes@Base 0.6.0
  crypto_aead_chacha20poly1305_decrypt@Base 0.6.0
  crypto_aead_chacha20poly1305_encrypt@Base 0.6.0
