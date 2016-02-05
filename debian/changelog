@@ -1,3 +1,9 @@
+libsodium (1.0.8-5) unstable; urgency=low
+
+  * Last bits of architecture specific symbols (closes: #813756).
+
+ -- Laszlo Boszormenyi (GCS) <gcs@debian.org>  Fri, 05 Feb 2016 02:53:09 +0100
+
 libsodium (1.0.8-4) unstable; urgency=low
 
   * Mark more {,kfreebsd-}amd64, {,kfreebsd-}i386 and x32 symbols as-is.

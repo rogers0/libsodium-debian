@@ -6,12 +6,12 @@ libsodium.so.18 libsodium18 #MINVER#
  (arch=amd64)_crypto_scalarmult_curve25519_sandy2x_ladder_base@Base 1.0.8
  (arch=amd64)_crypto_stream_salsa20@Base 0.6.0
  (arch=amd64)_crypto_stream_salsa20_xor_ic@Base 0.6.0
- crypto_aead_aes256gcm_abytes@Base 1.0.8
- crypto_aead_aes256gcm_beforenm@Base 1.0.8
- crypto_aead_aes256gcm_decrypt@Base 1.0.8
- crypto_aead_aes256gcm_decrypt_afternm@Base 1.0.8
- crypto_aead_aes256gcm_encrypt@Base 1.0.8
- crypto_aead_aes256gcm_encrypt_afternm@Base 1.0.8
+ (arch=amd64 i386 kfreebsd-amd64 kfreebsd-i386 x32)crypto_aead_aes256gcm_abytes@Base 1.0.8
+ (arch=amd64 i386 kfreebsd-amd64 kfreebsd-i386 x32)crypto_aead_aes256gcm_beforenm@Base 1.0.8
+ (arch=amd64 i386 kfreebsd-amd64 kfreebsd-i386 x32)crypto_aead_aes256gcm_decrypt@Base 1.0.8
+ (arch=amd64 i386 kfreebsd-amd64 kfreebsd-i386 x32)crypto_aead_aes256gcm_decrypt_afternm@Base 1.0.8
+ (arch=amd64 i386 kfreebsd-amd64 kfreebsd-i386 x32)crypto_aead_aes256gcm_encrypt@Base 1.0.8
+ (arch=amd64 i386 kfreebsd-amd64 kfreebsd-i386 x32)crypto_aead_aes256gcm_encrypt_afternm@Base 1.0.8
  crypto_aead_aes256gcm_is_available@Base 1.0.8
  (arch=amd64 i386 kfreebsd-amd64 kfreebsd-i386 x32)crypto_aead_aes256gcm_keybytes@Base 1.0.8
  (arch=amd64 i386 kfreebsd-amd64 kfreebsd-i386 x32)crypto_aead_aes256gcm_npubbytes@Base 1.0.8
