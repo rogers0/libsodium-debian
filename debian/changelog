@@ -1,3 +1,11 @@
+libsodium (1.0.10-1) unstable; urgency=low
+
+  * New upstream release, hides assembly symbols on amd64.
+  * Update libsodium18.symbols .
+  * Update Standards-Version to 3.9.8 .
+
+ -- Laszlo Boszormenyi (GCS) <gcs@debian.org>  Fri, 15 Apr 2016 16:07:32 +0000
+
 libsodium (1.0.8-5) unstable; urgency=low
 
   * Last bits of architecture specific symbols (closes: #813756).
