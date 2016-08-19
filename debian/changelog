@@ -1,3 +1,9 @@
+libsodium (1.0.11-1) unstable; urgency=low
+
+  * New upstream release.
+
+ -- Laszlo Boszormenyi (GCS) <gcs@debian.org>  Fri, 19 Aug 2016 17:00:37 +0000
+
 libsodium (1.0.10-1) unstable; urgency=low
 
   * New upstream release, hides assembly symbols on amd64.
