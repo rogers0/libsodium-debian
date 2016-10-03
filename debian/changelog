@@ -1,3 +1,9 @@
+libsodium (1.0.11-1~bpo8+1) jessie-backports; urgency=medium
+
+  * Rebuild for jessie-backports.
+
+ -- Roger Shimizu <rogershimizu@gmail.com>  Tue, 04 Oct 2016 00:32:01 +0900
+
 libsodium (1.0.11-1) unstable; urgency=low
 
   * New upstream release.
